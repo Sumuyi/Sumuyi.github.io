@@ -1,6 +1,9 @@
+http://example.com/2022/04/25/blog/
 http://example.com/link/index.html
 http://example.com/categories/index.html
 http://example.com/tags/index.html
-http://example.com/2022/04/25/blog/
 http://example.com/2022/04/25/hello-world/
 http://example.com/
+http://example.com/tags/Java/
+http://example.com/tags/Android/
+http://example.com/categories/Java/
