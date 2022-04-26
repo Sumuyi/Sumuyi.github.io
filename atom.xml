@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SumuyiのBlog</title>
-  
+  <icon>https://www.gravatar.com/avatar/f1fffecab844fb72bd9721c50fd04af3</icon>
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
@@ -10,8 +10,8 @@
   <id>http://example.com/</id>
   
   <author>
-    <name>Sunl</name>
-    
+    <name>Sumuyi</name>
+    <email>1850001616@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
