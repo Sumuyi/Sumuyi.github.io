@@ -1,3 +1,4 @@
+http://example.com/Gallery/index.html
 http://example.com/2022/04/25/blog/
 http://example.com/link/index.html
 http://example.com/categories/index.html
