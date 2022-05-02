@@ -10,5 +10,5 @@ http://example.com/
 http://example.com/tags/Java/
 http://example.com/tags/Dubbo/
 http://example.com/tags/Zookeeper/
-http://example.com/categories/Java/
 http://example.com/categories/Java-Dubbo-Zookeeper/
+http://example.com/categories/Java/
