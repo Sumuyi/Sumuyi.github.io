@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-05-05T13:05:37.798Z</updated>
+  <updated>2022-05-05T13:22:04.481Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,23 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://example.com/2022/05/01/dubbo/"/>
-    <id>http://example.com/2022/05/01/dubbo/</id>
-    <published>2022-05-01T02:15:04.460Z</published>
-    <updated>2022-05-05T13:05:37.798Z</updated>
+    <title>zookeeper的搭建使用</title>
+    <link href="http://example.com/2022/05/05/zookeeper%E7%9A%84%E6%90%AD%E5%BB%BA%E4%BD%BF%E7%94%A8/"/>
+    <id>http://example.com/2022/05/05/zookeeper%E7%9A%84%E6%90%AD%E5%BB%BA%E4%BD%BF%E7%94%A8/</id>
+    <published>2022-05-05T13:13:51.000Z</published>
+    <updated>2022-05-05T13:22:04.481Z</updated>
     
-    <content type="html"><![CDATA[<p>  - </p><h1 id="Dubbo-设计框架"><a href="#Dubbo-设计框架" class="headerlink" title="Dubbo 设计框架"></a>Dubbo 设计框架</h1><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501101806971.png" alt="image-20220501101806971"></p><h1 id="Dubbo应用使用思路"><a href="#Dubbo应用使用思路" class="headerlink" title="Dubbo应用使用思路"></a>Dubbo应用使用思路</h1><p><strong>1.写一个服务提供者，将服务提供者信息注册到注册中心</strong></p><p><strong>2.编写一个服务消费者，消费者从注册中心订阅提供者所提供的服务</strong></p><p><strong>3.测试消费者如何调用提供者所提供的功能</strong></p><h1 id="Zookeeper-注册中心安装"><a href="#Zookeeper-注册中心安装" class="headerlink" title="Zookeeper 注册中心安装"></a>Zookeeper 注册中心安装</h1><blockquote><p>这里使用的是3.4.11版本：<a href="http://archive.apache.org/dist/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz">http://archive.apache.org/dist/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz</a></p><p>全部版本下载地址： <a href="http://archive.apache.org/dist/zookeeper/">http://archive.apache.org/dist/zookeeper/</a></p></blockquote><p>下载解压后，打开bin目录</p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501103613211.png" alt="image-20220501103613211"></p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501103751100.png" alt="image-20220501103751100"></p><blockquote><p>这里使用cmd命令行启动，第一次启动可能会报错</p></blockquote><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501104357617.png" alt="image-20220501104357617"></p><blockquote><p>原因是zookeeper配置文件是在conf文件夹下放置的，只有<strong>zoo_sample.cfg</strong></p><p>此时，我们要复制一份<strong>zoo_sample.cfg</strong> 并重命名为 <strong>zoo.cfg</strong>，并打开它</p></blockquote><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501104827563.png" alt="image-20220501104827563"></p><p>打开后，可以看到一些配置信息，当前主要看两个</p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501105114197.png" alt="image-20220501105114197"></p><p>在目中创建一个data文件夹用来保存临时数据</p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501105349290.png" alt="image-20220501105349290"></p><p>然后将配置文件里的dataDir属性值修改为新创建的data文件夹</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dataDir=../data</span><br></pre></td></tr></table></figure><p>再次重新启动zookeeper</p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501105738228.png" alt="image-20220501105738228"></p><p>进行测试，在同级目录下启动zkCli.cmd</p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501105939478.png" alt="image-20220501105939478"></p><p><img src="/.com//myblog\source\images\dubbo\20220501\image-20220501110407375.png" alt="image-20220501110407375"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Dubbo-设计框架"><a href="#Dubbo-设计框架" class="headerlink" title="Dubbo 设计框架"></a>Dubbo 设计框架</h1><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501101806971.png" alt="image-20220501101806971"></p><h1 id="Dubbo应用使用思路"><a href="#Dubbo应用使用思路" class="headerlink" title="Dubbo应用使用思路"></a>Dubbo应用使用思路</h1><p><strong>1.写一个服务提供者，将服务提供者信息注册到注册中心</strong></p><p><strong>2.编写一个服务消费者，消费者从注册中心订阅提供者所提供的服务</strong></p><p><strong>3.测试消费者如何调用提供者所提供的功能</strong></p><h1 id="Zookeeper-注册中心安装"><a href="#Zookeeper-注册中心安装" class="headerlink" title="Zookeeper 注册中心安装"></a>Zookeeper 注册中心安装</h1><blockquote><p>这里使用的是3.4.11版本：<a href="http://archive.apache.org/dist/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz">http://archive.apache.org/dist/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz</a></p><p>全部版本下载地址： <a href="http://archive.apache.org/dist/zookeeper/">http://archive.apache.org/dist/zookeeper/</a></p></blockquote><p>下载解压后，打开bin目录</p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501103613211.png" alt="image-20220501103613211"></p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501103751100.png" alt="image-20220501103751100"></p><blockquote><p>这里使用cmd命令行启动，第一次启动可能会报错</p></blockquote><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501104357617.png" alt="image-20220501104357617"></p><blockquote><p>原因是zookeeper配置文件是在conf文件夹下放置的，只有<strong>zoo_sample.cfg</strong></p><p>此时，我们要复制一份<strong>zoo_sample.cfg</strong> 并重命名为 <strong>zoo.cfg</strong>，并打开它</p></blockquote><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501104827563.png" alt="image-20220501104827563"></p><p>打开后，可以看到一些配置信息，当前主要看两个</p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501105114197.png" alt="image-20220501105114197"></p><p>在目中创建一个data文件夹用来保存临时数据</p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501105349290.png" alt="image-20220501105349290"></p><p>然后将配置文件里的dataDir属性值修改为新创建的data文件夹</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">dataDir=../data</span><br></pre></td></tr></table></figure><p>再次重新启动zookeeper</p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501105738228.png" alt="image-20220501105738228"></p><p>进行测试，在同级目录下启动zkCli.cmd</p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501105939478.png" alt="image-20220501105939478"></p><p><img src="/.com//myblog\source_posts\zookeeper的搭建使用\20220501\image-20220501110407375.png" alt="image-20220501110407375"></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;  - &lt;/p&gt;
-&lt;h1 id=&quot;Dubbo-设计框架&quot;&gt;&lt;a href=&quot;#Dubbo-设计框架&quot; class=&quot;headerlink&quot; title=&quot;Dubbo 设计框架&quot;&gt;&lt;/a&gt;Dubbo 设计框架&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/.com//myblog\so</summary>
+    <summary type="html">&lt;h1 id=&quot;Dubbo-设计框架&quot;&gt;&lt;a href=&quot;#Dubbo-设计框架&quot; class=&quot;headerlink&quot; title=&quot;Dubbo 设计框架&quot;&gt;&lt;/a&gt;Dubbo 设计框架&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/.com//myblog\source_posts\z</summary>
       
     
     
     
+    <category term="Dubbo" scheme="http://example.com/categories/Dubbo/"/>
+    
+    
+    <category term="Java,Dubbo" scheme="http://example.com/tags/Java-Dubbo/"/>
     
   </entry>
   
@@ -55,26 +58,6 @@
     
     
     <category term="Java" scheme="http://example.com/tags/Java/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2022/04/25/hello-world/"/>
-    <id>http://example.com/2022/04/25/hello-world/</id>
-    <published>2022-04-25T08:06:07.815Z</published>
-    <updated>2022-04-25T08:10:33.916Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><p>Hello 苏木易</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
-    
     
   </entry>
   
