@@ -6,7 +6,7 @@ http://example.com/Gallery/index.html
 http://example.com/categories/index.html
 http://example.com/tags/index.html
 http://example.com/
-http://example.com/tags/Java/
 http://example.com/tags/Java-Dubbo/
-http://example.com/categories/Java/
+http://example.com/tags/Java/
 http://example.com/categories/Dubbo/
+http://example.com/categories/Java/
