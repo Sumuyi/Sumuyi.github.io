@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/05/05/zookeeper%E7%9A%84%E6%90%AD%E5%BB%BA%E4%BD%BF%E7%94%A8/</loc>
+    <loc>http://sumuyi.top/2022/05/05/zookeeper%E7%9A%84%E6%90%AD%E5%BB%BA%E4%BD%BF%E7%94%A8/</loc>
     
     <lastmod>2022-05-05</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/04/30/bigDemical/</loc>
+    <loc>http://sumuyi.top/2022/04/30/bigDemical/</loc>
     
     <lastmod>2022-04-30</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>http://sumuyi.top/link/index.html</loc>
     
     <lastmod>2022-04-27</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/Gallery/wallpaper/index.html</loc>
+    <loc>http://sumuyi.top/Gallery/wallpaper/index.html</loc>
     
     <lastmod>2022-04-27</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/Gallery/index.html</loc>
+    <loc>http://sumuyi.top/Gallery/index.html</loc>
     
     <lastmod>2022-04-27</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://sumuyi.top/categories/index.html</loc>
     
     <lastmod>2022-04-26</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://sumuyi.top/tags/index.html</loc>
     
     <lastmod>2022-04-26</lastmod>
     
@@ -66,7 +66,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://sumuyi.top/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>http://example.com/tags/Java-Dubbo/</loc>
+    <loc>http://sumuyi.top/tags/Java/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/Java/</loc>
+    <loc>http://sumuyi.top/tags/Java-Dubbo/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -90,14 +90,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/Dubbo/</loc>
+    <loc>http://sumuyi.top/categories/Java/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/Java/</loc>
+    <loc>http://sumuyi.top/categories/Dubbo/</loc>
     <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
