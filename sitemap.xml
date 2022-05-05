@@ -4,7 +4,7 @@
   <url>
     <loc>http://example.com/2022/05/01/dubbo/</loc>
     
-    <lastmod>2022-05-02</lastmod>
+    <lastmod>2022-05-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-05-02</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -84,21 +84,7 @@
   
   <url>
     <loc>http://example.com/tags/Java/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Dubbo/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/Zookeeper/</loc>
-    <lastmod>2022-05-02</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -106,15 +92,8 @@
 
   
   <url>
-    <loc>http://example.com/categories/Java-Dubbo-Zookeeper/</loc>
-    <lastmod>2022-05-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/Java/</loc>
-    <lastmod>2022-05-02</lastmod>
+    <lastmod>2022-05-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
