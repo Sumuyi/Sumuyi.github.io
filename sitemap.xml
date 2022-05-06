@@ -67,22 +67,22 @@
 
   <url>
     <loc>http://sumuyi.top/</loc>
-    <lastmod>2022-05-05</lastmod>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>http://sumuyi.top/tags/Java/</loc>
-    <lastmod>2022-05-05</lastmod>
+    <loc>http://sumuyi.top/tags/Java-Dubbo/</loc>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://sumuyi.top/tags/Java-Dubbo/</loc>
-    <lastmod>2022-05-05</lastmod>
+    <loc>http://sumuyi.top/tags/Java/</loc>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -90,15 +90,15 @@
 
   
   <url>
-    <loc>http://sumuyi.top/categories/Java/</loc>
-    <lastmod>2022-05-05</lastmod>
+    <loc>http://sumuyi.top/categories/Dubbo/</loc>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://sumuyi.top/categories/Dubbo/</loc>
-    <lastmod>2022-05-05</lastmod>
+    <loc>http://sumuyi.top/categories/Java/</loc>
+    <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
