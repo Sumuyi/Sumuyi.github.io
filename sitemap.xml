@@ -4,7 +4,7 @@
   <url>
     <loc>http://sumuyi.top/2022/05/05/zookeeper%E7%9A%84%E6%90%AD%E5%BB%BA%E4%BD%BF%E7%94%A8/</loc>
     
-    <lastmod>2022-05-05</lastmod>
+    <lastmod>2022-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>http://sumuyi.top/tags/Java-Dubbo/</loc>
+    <loc>http://sumuyi.top/tags/Java/</loc>
     <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://sumuyi.top/tags/Java/</loc>
+    <loc>http://sumuyi.top/tags/Java-Dubbo/</loc>
     <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -90,14 +90,14 @@
 
   
   <url>
-    <loc>http://sumuyi.top/categories/Dubbo/</loc>
+    <loc>http://sumuyi.top/categories/Java/</loc>
     <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://sumuyi.top/categories/Java/</loc>
+    <loc>http://sumuyi.top/categories/Dubbo/</loc>
     <lastmod>2022-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
