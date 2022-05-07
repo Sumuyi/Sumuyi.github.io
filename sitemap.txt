@@ -7,9 +7,9 @@ http://sumuyi.top/Gallery/index.html
 http://sumuyi.top/categories/index.html
 http://sumuyi.top/tags/index.html
 http://sumuyi.top/
-http://sumuyi.top/tags/Java/
 http://sumuyi.top/tags/Java-Dubbo/
 http://sumuyi.top/tags/vue/
-http://sumuyi.top/categories/Java/
+http://sumuyi.top/tags/Java/
 http://sumuyi.top/categories/Dubbo/
 http://sumuyi.top/categories/Vue/
+http://sumuyi.top/categories/Java/
