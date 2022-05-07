@@ -1,3 +1,4 @@
+http://sumuyi.top/2022/05/07/%E6%B5%AE%E7%82%B9%E6%95%B0%E9%87%91%E9%92%B1%E7%9B%B8%E5%8A%A0%E5%87%8F%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89/
 http://sumuyi.top/2022/05/05/zookeeper%E7%9A%84%E6%90%AD%E5%BB%BA%E4%BD%BF%E7%94%A8/
 http://sumuyi.top/2022/04/30/bigDemical/
 http://sumuyi.top/link/index.html
@@ -6,7 +7,9 @@ http://sumuyi.top/Gallery/index.html
 http://sumuyi.top/categories/index.html
 http://sumuyi.top/tags/index.html
 http://sumuyi.top/
-http://sumuyi.top/tags/Java-Dubbo/
 http://sumuyi.top/tags/Java/
-http://sumuyi.top/categories/Dubbo/
+http://sumuyi.top/tags/Java-Dubbo/
+http://sumuyi.top/tags/vue/
 http://sumuyi.top/categories/Java/
+http://sumuyi.top/categories/Dubbo/
+http://sumuyi.top/categories/Vue/

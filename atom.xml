@@ -6,7 +6,7 @@
   <link href="http://sumuyi.top/atom.xml" rel="self"/>
   
   <link href="http://sumuyi.top/"/>
-  <updated>2022-05-06T02:53:42.446Z</updated>
+  <updated>2022-05-07T05:08:11.761Z</updated>
   <id>http://sumuyi.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浮点数金钱相加减（前端）</title>
+    <link href="http://sumuyi.top/2022/05/07/%E6%B5%AE%E7%82%B9%E6%95%B0%E9%87%91%E9%92%B1%E7%9B%B8%E5%8A%A0%E5%87%8F%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89/"/>
+    <id>http://sumuyi.top/2022/05/07/%E6%B5%AE%E7%82%B9%E6%95%B0%E9%87%91%E9%92%B1%E7%9B%B8%E5%8A%A0%E5%87%8F%EF%BC%88%E5%89%8D%E7%AB%AF%EF%BC%89/</id>
+    <published>2022-05-07T05:04:15.000Z</published>
+    <updated>2022-05-07T05:08:11.761Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1-相加"><a href="#1-相加" class="headerlink" title="1.相加"></a>1.相加</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">numberAdd(arg1, arg2) &#123;</span><br><span class="line">  var r1, r2, m, n;</span><br><span class="line">  try &#123;</span><br><span class="line">    r1 = arg1.toString().split(&quot;.&quot;)[1].length</span><br><span class="line">  &#125; catch (e) &#123;</span><br><span class="line">    r1 = 0</span><br><span class="line">  &#125;</span><br><span class="line">  try &#123;</span><br><span class="line">    r2 = arg2.toString().split(&quot;.&quot;)[1].length</span><br><span class="line">  &#125; catch (e) &#123;</span><br><span class="line">    r2 = 0</span><br><span class="line">  &#125;</span><br><span class="line">  m = Math.pow(10, Math.max(r1, r2))</span><br><span class="line">  n = (r1 &gt;= r2) ? r1 : r2;</span><br><span class="line">  return ((arg1 * m + arg2 * m) / m).toFixed(n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="2-相减"><a href="#2-相减" class="headerlink" title="2.相减"></a>2.相减</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">numberSub(arg1, arg2) &#123;</span><br><span class="line">  var re1, re2, m, n;</span><br><span class="line">  try &#123;</span><br><span class="line">    re1 = arg1.toString().split(&quot;.&quot;)[1].length;</span><br><span class="line">  &#125; catch (e) &#123;</span><br><span class="line">    re1 = 0;</span><br><span class="line">  &#125;</span><br><span class="line">  try &#123;</span><br><span class="line">    re2 = arg2.toString().split(&quot;.&quot;)[1].length;</span><br><span class="line">  &#125; catch (e) &#123;</span><br><span class="line">    re2 = 0;</span><br><span class="line">  &#125;</span><br><span class="line">  m = Math.pow(10, Math.max(re1, re2));</span><br><span class="line">  n = (re1 &gt;= re2) ? re1 : re2;</span><br><span class="line">  return ((arg1 * m - arg2 * m) / m).toFixed(n);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-相加&quot;&gt;&lt;a href=&quot;#1-相加&quot; class=&quot;headerlink&quot; title=&quot;1.相加&quot;&gt;&lt;/a&gt;1.相加&lt;/h1&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;</summary>
+      
+    
+    
+    
+    <category term="Vue" scheme="http://sumuyi.top/categories/Vue/"/>
+    
+    
+    <category term="vue" scheme="http://sumuyi.top/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>zookeeper的搭建使用</title>
