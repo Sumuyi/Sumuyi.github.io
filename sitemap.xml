@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://sumuyi.top/2022/05/15/Spring%20Cloud%20NetFlix%20%E7%B3%BB%E5%88%97-01.%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%AE%80%E4%BB%8B/</loc>
+    <loc>http://sumuyi.top/2022/05/15/Spring%20Cloud%20Netflix%20%E7%B3%BB%E5%88%97-02.Rest%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2022-05-19</lastmod>
     
@@ -13,16 +13,16 @@
   <url>
     <loc>http://sumuyi.top/2022/05/15/Spring%20Cloud%20Netflix%20%E7%B3%BB%E5%88%97-03.Eureka%20%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0/</loc>
     
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://sumuyi.top/2022/05/15/Spring%20Cloud%20Netflix%20%E7%B3%BB%E5%88%97-02.Rest%E5%AD%A6%E4%B9%A0%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://sumuyi.top/2022/05/15/Spring%20Cloud%20NetFlix%20%E7%B3%BB%E5%88%97-01.%E5%BE%AE%E6%9C%8D%E5%8A%A1%E7%AE%80%E4%BB%8B/</loc>
     
-    <lastmod>2022-05-15</lastmod>
+    <lastmod>2022-05-19</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
